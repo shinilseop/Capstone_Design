@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="interval :"/>
+            <EditText
+                android:id="@+id/edtxtInterval"
+                android:gravity="center_horizontal"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sec"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="start :"/>
+                <EditText
+                    android:id="@+id/edtxtStart"
+                    android:gravity="center_horizontal"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="end :"/>
+                <EditText
+                    android:id="@+id/edtxtEnd"
+                    android:gravity="center_horizontal"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="4844"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/debugPanel"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="12">
+
+        <EditText
+            android:id="@+id/edtxtQuery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"/>
+
+        <Button
+            android:id="@+id/btnDebug"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="query"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tvLogView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>

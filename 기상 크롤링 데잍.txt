@@ -1,0 +1,28 @@
+긁은 현재 아이콘 src 상태에 따른 날씨
+
+https://www.weatheri.co.kr/images/icon_2013_01/01.png = 해
+https://www.weatheri.co.kr/images/icon_2013_01/03.png = 해+구름
+https://www.weatheri.co.kr/images/icon_2013_01/03.png = 구름만
+https://www.weatheri.co.kr/images/icon_2013_01/04.png = 비
+https://www.weatheri.co.kr/images/icon_2013_01/05.png = 눈
+https://www.weatheri.co.kr/images/icon_2013_01/06.png = 비+눈
+https://www.weatheri.co.kr/images/icon_2013_01/07.png = 해+구름+비
+https://www.weatheri.co.kr/images/icon_2013_01/08.png = 해+구름+눈
+https://www.weatheri.co.kr/images/icon_2013_01/10.png = 구름+번개
+https://www.weatheri.co.kr/images/icon_2013_01/11.png
+.
+.							==> 두개 섞임
+.
+
+https://www.weatheri.co.kr/images/icon_2013_01/20.png
+https://www.weatheri.co.kr/images/icon_2013_01/21.png = 해+구름
+
+
+1 => 해
+2,3,21 => 구름
+4,6,7 => 비
+5,6,7 => 눈
+10=>구름+번개
+
+
+html > body > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > img
