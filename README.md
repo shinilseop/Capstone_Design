@@ -73,6 +73,7 @@
 
 * 실행 영상
 
-   <img src="/readme_image/run_video.gif"  width="40%" height="40%"/>
+   <img src="/readme_image/run_video.gif"  width="25%" height="25%"/>
+
 
    * 맨 첫번째 기상화면은 측정한 자외선 수치의 비교를 위해 제공하고 있으며, 웨더아이(https://www.weatheri.co.kr/)에서 날씨 정보를 크롤링 하고, 자외선 정보의 경우 실제 공주대학교 10공학관에서 측정 및 스트리밍하는 데이터를 제공함.
