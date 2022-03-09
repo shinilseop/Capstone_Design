@@ -22,20 +22,47 @@
 
 ### 1. 프로젝트 시작 배경
 * 실외의 빛 (자연광)
-<이미지 1>
+
+   <img src="/readme_image/background1.png"  width="80%" height="80%"/>
 
 * 실내의 빛 (조명)
-<이미지 2>
+
+   <img src="/readme_image/background2.png"  width="80%" height="80%"/>
 
 ---
 
 ### 2. 프로젝트 목적
+* 목적
+
+   <img src="/readme_image/obj1.png"  width="80%" height="80%"/>
 
 ---
 
 ### 3. 기능 설계
+* 기능도
+
+   <img src="/readme_image/func1.png"  width="80%" height="80%"/>
 
 ---
 
 ### 4. 구현 장면
 
+* 실행 장면 1
+
+   <img src="/readme_image/run1.png"  width="80%" height="80%"/>
+
+* 실행 장면 2
+
+   <img src="/readme_image/run2.png"  width="80%" height="80%"/>
+
+* 실행 장면 3
+
+   <img src="/readme_image/run3.png"  width="80%" height="80%"/>
+
+* 실행 장면 4
+
+   <img src="/readme_image/run4.png"  width="80%" height="80%"/>
+
+* 실행 영상
+
+   <img src="/readme_image/run_video.gif"  width="40%" height="40%"/>
